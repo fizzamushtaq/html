@@ -1,0 +1,42 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(112, 118, 71);
+    color: rgb(0, 0, 0);
+    color: rgb(254, 254, 254);
+}
+h1{
+    color: white;
+}
+button{
+    background-color: #49c482;
+}
+#para{
+    background-color: #080707;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.heading{
+    color: rgb(255, 255, 255);
+}
+h3 
+{
+    text-align: center;
+    text-decoration:rgb(0, 0, 0) dashed underline;
+}
+#helo1{
+
+    text-align: center;
+}
+#newaricle{
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+    #newnewaricle{
+        text-transform: capitalize;
+    }

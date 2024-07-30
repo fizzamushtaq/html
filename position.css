@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+/*#box{
+    position: static;
+}
+#box2{
+    position: relative;
+    z-index: 1px;
+}
+#box3{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    /*absolute position means position of the box accordimg to the web page  
+    z-index: 3px ;
+}
+#box4{
+    position: fixed;
+    right: 10px;
+}*/
+body{
+    background-image: url(bgcred.jpg);
+    background-size: cover;
+}
+#box1{
+    background-image: url(flower-butterfly.jpg);
+    background-size: cover;
+}

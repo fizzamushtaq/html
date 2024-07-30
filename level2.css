@@ -1,0 +1,31 @@
+
+div {
+    height: 100px;
+    width: 100px;
+    
+    background-color: rgb(237, 155, 14);
+    text-align: center;
+    border-radius: 50%;
+    
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    padding: 25px;
+    padding-bottom: 25px;
+    margin: 25px;
+}
+#one{
+    width: 200px;
+    height: 600px;
+    border-radius: 0%;
+    background-color: black;
+
+}
+#circle{
+    background-color: rgb(233, 24, 24);
+}
+#two{
+    background-color: yellow;
+}
+#three{
+    background-color: green;
+}

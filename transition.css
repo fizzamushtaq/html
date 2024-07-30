@@ -1,0 +1,50 @@
+div{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(240, 243, 243);
+    border-top: 10px solid black;
+    border-radius: 100px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    animation: spinanimation 3s ease-in 0s infinite normal;}
+   /* animation-name: coloranimation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;*/
+
+
+   /* transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition:all 2s ease-in 0.2s 
+    Animaition property
+
+}*/
+@keyframes spinanimation { 
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100%{
+       transform: rotate(360deg);
+    }
+    
+   }
+/*div:hover{
+    background-color: #161616;
+    color: white;
+    text-align: center;
+   transform:scale(2)
+   transform: translateX(200px);
+}
+    
+    
+div:active{
+    background-color: #0c0a81;
+    color: white;
+    text-align: center;
+
+}*/

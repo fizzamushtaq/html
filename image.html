@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <style>
+    body{
+        background-color: rgb(34, 29, 29);
+        color: #ffffff;
+    }
+    </style>
+</head>
+<body>
+    <img src="https://images.pexelscom/photos/23383398/pexels-photo-23383398/free-photo-of-tuscany-in-spring.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="200" alt="no image">
+    
+    
+    <img src="lower-butterfly.jpg" width="500" alt="fl">
+    <picture>
+        <source media="(min-width: 100px )" srcset="">
+        <source media="(min-width: 200px )" srcset="">
+        <img src="lower-butterfly.jpg" alt="no image">
+    </picture>
+
+    <picture>
+    <source media="(min-width: 100px)" srcset="helo image">
+    <source media="(min-width: 200px)" srcset="helo image">
+    
+    <img src="lower-butterfly.jpg" alt="hello image">
+
+
+</picture>
+<!--an image generator-->
+<img src="flower-butterfly.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="217,171,279,240" shape="rect">
+    <area onclick="two()" target="" alt="" title="" href="" coords="345,319,401,393" shape="rect">
+</map>
+    <script>
+        function one(){
+            alert("helo kase ho")
+        }
+        function two(){
+            alert("bs ab cursor hata lu")
+        }
+    </script>
+    
+</body>
+</html>
